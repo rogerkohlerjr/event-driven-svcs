@@ -1,6 +1,8 @@
 ---
 date:
   created: 2025-03-24
+authors:
+  - rogerk
 categories:
   - UML
 ---
