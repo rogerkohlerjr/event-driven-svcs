@@ -6,7 +6,7 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/rogerkohlerjr/event-driven-svcs)](https://img.shields.io/github/commit-activity/m/rogerkohlerjr/event-driven-svcs)
 [![License](https://img.shields.io/github/license/rogerkohlerjr/event-driven-svcs)](https://img.shields.io/github/license/rogerkohlerjr/event-driven-svcs)
 
-A project journey to implement EDA with kafka, redis, rabbitMQ with FastAPI python services.  Documentation site built-in contains a blog with a step-by-step tutorial of how this site came to be.
+A project journey to implement EDA with kafka, redis, rabbitMQ with FastAPI python services. Documentation site built-in contains a blog with a step-by-step tutorial of how this site came to be.
 
 - **Github repository**: <https://github.com/rogerkohlerjr/event-driven-svcs/>
 - **Documentation** <https://rogerkohlerjr.github.io/event-driven-svcs/>
@@ -62,9 +62,8 @@ To enable the code coverage reports, see [here](https://shaneholloman.github.io/
 
 ## Releasing a new version
 
-
-
 ---
 
 Repository initiated with [shaneholloman/uvi](https://github.com/shaneholloman/uvi).
+
 # event-driven-svcs

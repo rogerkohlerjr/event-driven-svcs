@@ -11,7 +11,7 @@ nav:
   - Home: index.md
   - Modules: modules.md
   - Blog:
-     - blog/index.md
+      - blog/index.md
 plugins:
   - gh-admonitions
   - blog:
@@ -130,14 +130,14 @@ markdown_extensions:
 # Plugins
 #plugins:
 #  - gh-admonitions
-  #- blog
-  #- search:
-      ##separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  #- mkdocstrings:
-      #handlers:
-        #python:
-          #options:
-            #show_source: true
+#- blog
+#- search:
+##separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+#- mkdocstrings:
+#handlers:
+#python:
+#options:
+#show_source: true
 
 validation:
   omitted_files: warn
