@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/modules/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/2025/03/24/oauth-flow-gui-backend-api-and-authservice/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/2025/03/23/welcome-to-my-blog--a-journey-into-event-driven-microservices/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/archive/2025/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/category/uml/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+    <url>
+         <loc>https://rogerkohlerjr.github.io/event-driven-svcs/blog/category/news/</loc>
+         <lastmod>2025-03-24</lastmod>
+    </url>
+</urlset>

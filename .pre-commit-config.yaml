@@ -10,7 +10,9 @@ repos:
         args: [--unsafe]
         files: mkdocs.yml
       - id: end-of-file-fixer
+        exclude: '\.html$|\.js$|\.css$|\.map$|\.json$|\.xml$'
       - id: trailing-whitespace
+        exclude: '\.html$|\.js$'
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: "v0.11.2"
@@ -23,3 +25,4 @@ repos:
     rev: "v4.0.0-alpha.8"
     hooks:
       - id: prettier
+        args: [--no-error-on-unmatched-pattern]
