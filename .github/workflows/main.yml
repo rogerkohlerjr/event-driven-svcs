@@ -64,6 +64,3 @@ jobs:
 
       - name: Check if documentation can be built
         run: uv run mkdocs build -s
-
-      - name: Check if documentation can be served
-        run: uv run mkdocs serve
