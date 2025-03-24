@@ -41,7 +41,7 @@ This blog is for developers who:
 
 ## What’s Next?
 
-Here’s a sneak peek at upcoming blog posts:
+Here’s a sneak peek at upcoming blog posts:<br>
 1. **Setting Up a FastAPI Microservice for Event Processing**
 2. **Integrating Kafka for Real-Time Messaging**
 3. **Using Redis for Fast Data Caching and Pub/Sub**
@@ -54,8 +54,8 @@ Each post will include code samples, explanations, and best practices to help yo
 
 I’d love to hear your thoughts! Feel free to:
 - Leave comments or ask questions.
-- Contribute to the **[GitHub repository](#)** (link to your repo).
-- Follow me on **[Twitter/LinkedIn](#)** for updates.
+- Contribute to the **[GitHub repository](https://github.com/rogerkohlerjr/event-driven-svcs/)** (link to your repo).
+- Follow me on **[LinkedIn](https://www.linkedin.com/in/rekohler/)** for updates.
 
 Thanks for stopping by, and happy coding! 🚀
 
