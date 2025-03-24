@@ -18,6 +18,9 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
+dependencies = [
+    "mkdocs-github-admonitions-plugin>=0.0.3",
+]
 
 [project.urls]
 Homepage = "https://rogerkohlerjr.github.io/event-driven-svcs/"

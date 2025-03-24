@@ -250,6 +250,9 @@ wheels = [
 name = "event-driven-svcs"
 version = "0.0.1"
 source = { editable = "." }
+dependencies = [
+    { name = "mkdocs-github-admonitions-plugin" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -267,6 +270,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "mkdocs-github-admonitions-plugin", specifier = ">=0.0.3" }]
 
 [package.metadata.requires-dev]
 dev = [
