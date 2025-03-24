@@ -48,18 +48,18 @@ Here’s a sneak peek at upcoming blog posts:
 1. **Levelset on OAuth handling for WebServices**
 2. **Setting Up a FastAPI Microservice for Event Processing**
 3. **Integrating Kafka for Real-Time Messaging**
-3. **Using Redis for Fast Data Caching and Pub/Sub**
-4. **Implementing Asynchronous Messaging with RabbitMQ**
-5. **Building an End-to-End Event-Driven Workflow**
+4. **Using Redis for Fast Data Caching and Pub/Sub**
+5. **Implementing Asynchronous Messaging with RabbitMQ**
+6. **Building an End-to-End Event-Driven Workflow**
 
 Each post will include code samples, explanations, and best practices to help you build and deploy event-driven microservices with confidence.
 
 ## Stay Connected
 
 I’d love to hear your thoughts! Feel free to:
+
 - Leave comments or ask questions.
 - Contribute to the **[GitHub repository](https://github.com/rogerkohlerjr/event-driven-svcs/)** (link to your repo).
 - Follow me on **[LinkedIn](https://www.linkedin.com/in/rekohler/)** for updates.
 
 Thanks for stopping by, and happy coding! 🚀
-
