@@ -7,11 +7,11 @@ categories:
   - News
 ---
 
-# Welcome to [Your Project Name] – A Journey into Event-Driven Microservices
+# Welcome to Blog – A Journey into Event-Driven Microservices
 
 ## Introduction
 
-Welcome to the official blog for **[Your Project Name]**, where I'll be sharing insights, lessons, and hands-on tutorials on building event-driven microservices. This project was born out of a passion for scalable, loosely coupled architectures that leverage technologies like **Kafka, FastAPI, Redis, and RabbitMQ**.
+Welcome to the official project blog for **event-driven-svcs**, where I'll be sharing insights, lessons, and hands-on tutorials on building event-driven microservices. This project was born out of a passion for scalable, loosely coupled architectures that leverage technologies like **Kafka, FastAPI, Redis, and RabbitMQ**.
 
 <!-- more -->
 
