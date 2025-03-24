@@ -20,6 +20,7 @@ If you've read about event-driven architecture but never had the chance to imple
 ## What This Blog Covers
 
 Here, you'll find:
+
 - Step-by-step guides on setting up **Kafka, FastAPI, Redis, and RabbitMQ**.
 - Best practices for designing **event-driven microservices**.
 - Real-world examples and code snippets to reinforce learning.
@@ -34,6 +35,7 @@ However, getting started can be overwhelming due to the variety of tools and des
 ## Who Is This For?
 
 This blog is for developers who:
+
 - Understand the **theory** of event-driven architecture but lack hands-on experience.
 - Want to learn how to integrate **Kafka, FastAPI, Redis, and RabbitMQ**.
 - Are looking for **real-world examples** instead of just theoretical concepts.
@@ -41,9 +43,11 @@ This blog is for developers who:
 
 ## What’s Next?
 
-Here’s a sneak peek at upcoming blog posts:<br>
-1. **Setting Up a FastAPI Microservice for Event Processing**
-2. **Integrating Kafka for Real-Time Messaging**
+Here’s a sneak peek at upcoming blog posts:
+
+1. **Levelset on OAuth handling for WebServices**
+2. **Setting Up a FastAPI Microservice for Event Processing**
+3. **Integrating Kafka for Real-Time Messaging**
 3. **Using Redis for Fast Data Caching and Pub/Sub**
 4. **Implementing Asynchronous Messaging with RabbitMQ**
 5. **Building an End-to-End Event-Driven Workflow**
