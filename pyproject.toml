@@ -124,7 +124,8 @@ preview = true
 skip_empty = true
 
 [tool.coverage.run]
-
-
 branch = true
 source = ["event_driven_svcs"]
+
+[tool.deptry.per_rule_ignores]
+DEP002 = ["mkdocs-github-admonitions-plugin"]
