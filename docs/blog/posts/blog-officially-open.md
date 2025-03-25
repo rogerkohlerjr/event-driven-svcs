@@ -45,7 +45,7 @@ This blog is for developers who:
 
 Here’s a sneak peek at upcoming blog posts:
 
-1. **Levelset on OAuth handling for WebServices**
+1. [**Levelset on OAuth handling for WebServices**](OAuth Flow: GUI, Backend API, and AuthService)
 2. **Setting Up a FastAPI Microservice for Event Processing**
 3. **Integrating Kafka for Real-Time Messaging**
 4. **Using Redis for Fast Data Caching and Pub/Sub**
