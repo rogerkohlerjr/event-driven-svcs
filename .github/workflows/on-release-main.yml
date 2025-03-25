@@ -15,7 +15,7 @@ jobs:
       - name: Check out
         uses: actions/checkout@v4
         with:
-          repository: rogerkohlerjr/event-driven-svcs/
+          repository: rogerkohlerjr/event-driven-svcs
           token: ${{ secrets.MY_PAT }}
 
       - name: Set up the environment
