@@ -5,7 +5,8 @@ on:
     types: [published]
     branches: [main]
     permissions:
-      contents: write # Set runner write on repo contents
+      contents: write
+      pull-requests: write
 
 jobs:
   deploy-docs:
