@@ -17,5 +17,8 @@ jobs:
       - name: Set up the environment
         uses: ./.github/actions/setup-python-env
 
+      - name: Set runner remote permission
+        run: git remote set-url origin https://github.com/rogerkohlerjr/event-driven-svcs/
+
       - name: Deploy documentation
         run: uv run mkdocs gh-deploy --force
