@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
+        with:
+          repository: rogerkohlerjr/event-driven-svcs/
+          token: ${{ secrets.MY_PAT }}
 
       - name: Set up the environment
         uses: ./.github/actions/setup-python-env
