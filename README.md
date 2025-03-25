@@ -62,7 +62,7 @@ To enable the code coverage reports, see [here](https://shaneholloman.github.io/
 
 ## Releasing a new version
 
-Releasing a new version of your product will depend upon your team and release management.  Since a sole maintainer of a github repo may seldom need to create pull-requests, the maintainer may only draft a release directly, see [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).  There is no harm in including a pull-request, requesting team reviews, discussions amongst the reviewers, etc, before drafting a release, see [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Releasing a new version of your product will depend upon your team and release management. Since a sole maintainer of a github repo may seldom need to create pull-requests, the maintainer may only draft a release directly, see [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). There is no harm in including a pull-request, requesting team reviews, discussions amongst the reviewers, etc, before drafting a release, see [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 ---
 

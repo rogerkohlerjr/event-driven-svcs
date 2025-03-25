@@ -11,10 +11,10 @@ categories:
 
 This document outlines the **OAuth authentication flow** between a **GUI (client application)**, a **Backend API**, and an **AuthService**. The flow covers the following key aspects:
 
-- **Initial API access attempt**
-- **Redirection to authentication via AuthService**
-- **JWT token issuance & API authorization**
-- **Handling token expiration & refresh**
+- Initial API access attempt
+- Redirection to authentication via AuthService
+- JWT token issuance & API authorization
+- Handling token expiration & refresh
 
 <!-- more -->
 

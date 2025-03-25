@@ -20,6 +20,7 @@ classifiers = [
 ]
 dependencies = [
     "mkdocs-github-admonitions-plugin>=0.0.3",
+    "mkdocs-rss-plugin>=1.17.1",
 ]
 
 [project.urls]

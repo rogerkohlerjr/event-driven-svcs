@@ -5,6 +5,7 @@ authors:
   - rogerk
 categories:
   - News
+pin: true
 ---
 
 # Welcome to My Blog – A Journey into Event-Driven Microservices
