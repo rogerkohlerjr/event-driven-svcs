@@ -28,8 +28,6 @@ plugins:
         - UML
       post_date_format: full
       blog_toc: true
-      extra:
-        - disqus: event-driven-svcs
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - mkdocstrings:
@@ -160,6 +158,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  disqus: event-driven-svcs
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rogerkohlerjr/event-driven-svcs
