@@ -21,7 +21,6 @@ plugins:
         - categories
   - gh-admonitions
   - blog:
-      authors_profiles: true
       archive_date_format: MMMM yyyy
       categories_allowed:
         - News
