@@ -129,4 +129,10 @@ branch = true
 source = ["event_driven_svcs"]
 
 [tool.deptry.per_rule_ignores]
-DEP002 = ["mkdocs-github-admonitions-plugin", "mkdocs-rss-plugin"]
+DEP002 = [
+  "mkdocs-github-admonitions-plugin",
+  "mkdocs-rss-plugin",
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocstrings",
+]
