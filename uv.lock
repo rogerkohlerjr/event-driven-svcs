@@ -269,17 +269,16 @@ name = "event-driven-svcs"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [
+    { name = "mkdocs" },
     { name = "mkdocs-github-admonitions-plugin" },
+    { name = "mkdocs-material" },
     { name = "mkdocs-rss-plugin" },
+    { name = "mkdocstrings", extra = ["python"] },
 ]
 
 [package.dev-dependencies]
 dev = [
     { name = "deptry" },
-    { name = "mkdocs" },
-    { name = "mkdocs-github-admonitions-plugin" },
-    { name = "mkdocs-material" },
-    { name = "mkdocstrings", extra = ["python"] },
     { name = "mypy" },
     { name = "pre-commit" },
     { name = "pytest" },
@@ -290,17 +289,16 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "mkdocs", specifier = ">=1.4.2" },
     { name = "mkdocs-github-admonitions-plugin", specifier = ">=0.0.3" },
+    { name = "mkdocs-material", specifier = ">=9.6.7" },
     { name = "mkdocs-rss-plugin", specifier = ">=1.17.1" },
+    { name = "mkdocstrings", extras = ["python"], specifier = ">=0.29.0" },
 ]
 
 [package.metadata.requires-dev]
 dev = [
     { name = "deptry", specifier = ">=0.23.0" },
-    { name = "mkdocs", specifier = ">=1.4.2" },
-    { name = "mkdocs-github-admonitions-plugin", specifier = ">=0.0.3" },
-    { name = "mkdocs-material", specifier = ">=9.6.7" },
-    { name = "mkdocstrings", extras = ["python"], specifier = ">=0.29.0" },
     { name = "mypy", specifier = ">=1.15.0" },
     { name = "pre-commit", specifier = ">=4.1.0" },
     { name = "pytest", specifier = ">=8.3.5" },

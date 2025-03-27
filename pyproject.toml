@@ -19,8 +19,12 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
+    "mkdocs>=1.4.2",
     "mkdocs-github-admonitions-plugin>=0.0.3",
     "mkdocs-rss-plugin>=1.17.1",
+    "mkdocs-material>=9.6.7",
+    "mkdocs-github-admonitions-plugin>=0.0.3",
+    "mkdocstrings[python]>=0.29.0",
 ]
 
 [project.urls]
@@ -37,10 +41,6 @@ dev = [
     "mypy>=1.15.0",
     "pytest-cov>=6.0.0",
     "ruff>=0.9.10",
-    "mkdocs>=1.4.2",
-    "mkdocs-material>=9.6.7",
-    "mkdocs-github-admonitions-plugin>=0.0.3",
-    "mkdocstrings[python]>=0.29.0",
 ]
 
 [build-system]
