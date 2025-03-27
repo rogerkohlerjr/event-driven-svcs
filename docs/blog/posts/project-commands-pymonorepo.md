@@ -31,8 +31,6 @@ This is a tongue in cheek way of illustrating our target vision ... we will need
 - '_AuthService_' for looking up credentials (user name & password) provided by a user
 - '_AppService_' for the initial application to invoke to get work done. The applications will include a '_GUI_' and a '_CLI_' command line utility.
 
-<!----- more ------>
-
 Does that joke into make more sense now? So we will start creating the scenario from my last post on OAuth workflow and place it all into a single code base we will create as a monorepo. A monorepo is a code base which has multiple applications or components in it, but each can be developed and run separately from the other. The share a project repository because they share dependencies. Pretend each of those four actors have modules/libraries they depend upon to be built into a single deliverable application or component. Together each actor is part of the product we will build that demonstrate our event-driven services architecture. That implies some products will be separate or independent of the others. They will interact with each other asynchronously.
 
 Let's move on ...
@@ -119,6 +117,61 @@ The reality is each application/component of the product have other friends at t
 uv init --package --lib projects/lib-one
 uv init --package --lib projects/lib-two
 ```
+
+# Package Dependencies
+Remember how I said there may be dependencies between the packages?  Let's do that now!
+
+```sh
+uv add --package lib-two lib-one
+```
+Pay attention to the output fron the command. It has built package lib-one and lib-two.  Uv knows the projects are members in the workspace and manages both projects for you automatically!  And now, the package lib-one is added using a reference to project lib-two using the --package option.
+
+```sh
+Resolved 33 packages in 20ms
+      Built lib-two @ file:///Users/rkohler/code/event-based-svcs/projects/lib-two
+      Built lib-one @ file:///Users/rkohler/code/event-based-svcs/projects/lib-one
+Prepared 2 packages in 581ms
+Installed 2 packages in 2ms
+ + lib-one==0.1.0 (from file:///Users/rkohler/code/event-based-svcs/projects/lib-one)
+ + lib-two==0.1.0 (from file:///Users/rkohler/code/event-based-svcs/projects/lib-two)
+```
+
+```sh
+cd projects/lib-two
+cat pyproject.toml
+```
+
+Check out the projects/lib-two pyproject.toml file. 
+
+```toml
+[project]
+name = "lib-two"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "rkohler", email = "roger.kohlerjr@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "lib-one",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv.sources]
+lib-one = { workspace = true }
+
+```
+Examine two new lines:
+
+* A dependency to lib-one is added on line 10
+* There are two lines at the end of the file for telling lib-two that the source of lib-ome is in the workspace not PyPI the python package index.
+* No changes are made to the lib-one project since it has no dependency on the other package.
+
+This second addition is important because it tells the project to pay attention to changes to lib-one sources.  It they change, then it will need rebuilding before rebuilding package lib-two.
 
 # Essential files ...
 
