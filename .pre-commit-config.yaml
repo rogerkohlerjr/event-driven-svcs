@@ -10,7 +10,7 @@ repos:
         args: [--unsafe]
         files: mkdocs.yml
       - id: end-of-file-fixer
-        exclude: '\.html$|\.js$|\.css$|\.map$|\.json$|\.xml$'
+        exclude: '\.html$|\.js$|\.css$|\.map$|\.json$|\.xml$|\.md$'
       - id: trailing-whitespace
         exclude: '\.html$|\.js$'
 
