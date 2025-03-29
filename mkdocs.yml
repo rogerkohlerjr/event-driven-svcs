@@ -137,18 +137,6 @@ markdown_extensions:
       clickable_checkbox: true
   - pymdownx.tilde
 
-# Plugins
-#plugins:
-#  - gh-admonitions
-#- blog
-#- search:
-##separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-#- mkdocstrings:
-#handlers:
-#python:
-#options:
-#show_source: true
-
 validation:
   omitted_files: warn
   absolute_links: warn
@@ -159,7 +147,6 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
-  disqus: event-driven-svcs
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/rogerkohlerjr/event-driven-svcs
