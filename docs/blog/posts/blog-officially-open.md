@@ -59,7 +59,7 @@ Each post will include code samples, explanations, and best practices to help yo
 I’d love to hear your thoughts! Feel free to:
 
 - Leave comments or ask questions.
-- Contribute to the **[GitHub repository](https://github.com/rogerkohlerjr/event-driven-svcs/)** (link to your repo).
+- Contribute to the **[GitHub repository](https://github.com/rogerkohlerjr/blog_event-driven-svcs/)** (link to your repo).
 - Follow me on **[LinkedIn](https://www.linkedin.com/in/rekohler/)** for updates.
 
 Thanks for stopping by, and happy coding! 🚀
