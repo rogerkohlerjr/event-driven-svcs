@@ -46,8 +46,8 @@ This blog is for developers who:
 Here’s a sneak peek at upcoming blog posts:
 
 1. [**Levelset on OAuth handling for WebServices**](auth-flow.md)
-2. **Setting Up a FastAPI Microservice for Event Processing**
-3. **Integrating Kafka for Real-Time Messaging**
+2. [**Setting Up a the Product/Project**](project-commands-pymonorepo.md)
+3. [**Integrating Kafka for Real-Time Messaging**](shipments-gui.md)
 4. **Using Redis for Fast Data Caching and Pub/Sub**
 5. **Implementing Asynchronous Messaging with RabbitMQ**
 6. **Building an End-to-End Event-Driven Workflow**
